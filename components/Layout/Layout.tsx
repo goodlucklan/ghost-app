@@ -21,9 +21,9 @@ export const Layout: FC<Props> = ({ children, title }) => {
       
         <NavBar />
 
-        <body>
+        <main>
             { children }
-        </body>
+        </main>
       
       </html>
   )
